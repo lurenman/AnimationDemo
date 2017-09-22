@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.animationdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_tweenAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="补间动画"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_frameAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="帧动画"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_propertyAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="属性动画简单示例"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/tv_propertyDetialAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="属性动画详解示例"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+</LinearLayout>

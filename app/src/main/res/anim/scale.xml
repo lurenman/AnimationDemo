@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXScale="0.5"
+
+    android:toXScale="1.0"
+
+    android:fromYScale="1.0"
+
+    android:toYScale="1.0"
+
+    android:duration="2000"
+
+    android:fillAfter="true"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    >
+<!--    pivotX（浮点型） 属性为动画相对于物件的X坐标的开始位置
+
+    pivotY（浮点型） 属性为动画相对于物件的Y坐标的开始位置
+
+    说明:
+
+    以上两个属性值从0%-100%中取值
+
+    50%为物件的X或Y方向坐标上的中点位置-->
+</scale>

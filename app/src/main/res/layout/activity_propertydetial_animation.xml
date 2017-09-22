@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="属性动画详解"
+            android:textSize="17sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv_ObjectAnimator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="ObjectAnimator的方式创建动画"
+            android:textColor="@color/colorPrimary"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_AnimatorSet"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="AnimatorSet动画"
+            android:textColor="@color/colorPrimary"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_ViewAnimate"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="ViewAnimate动画"
+            android:textColor="@color/colorPrimary"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_ValueAnimator"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="ValueAnimator动画"
+            android:textColor="@color/colorPrimary"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_LayoutTransition"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="LayoutTransition动画"
+            android:textColor="@color/colorPrimary"
+            android:padding="10dp"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
